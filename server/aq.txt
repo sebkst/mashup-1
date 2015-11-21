@@ -1,12 +1,10 @@
 
 [
 {"id":"0","question":"What is the most southern state in Austria?","choices":{"A":"Styria","B":"Venice","C":"Carinthia"},"answer":"Carinthia","hint":"","coupon":"You got a free beer in the Claddagh Irish Pub in Klagenfurt (Pernhartstrasse 4)"},
-{"id":"2","question":"Which city is the capital of Styria?","choices":{"A":"Venice","B":"Klagenfurt","C":"Graz"},"answer":"Graz", "hint":"It isthe second largest city in Austria","coupon": "This was easy, try the next question!"},
-{"id":"3","question":"Which state is the capital of Styria?","choices":{"A":"Venice","B":"Klagenfurt","C":"Graz"},"answer":"Graz", "hint":"","coupon": "Wonderful, go to Café Sacher to have a free coffee!"},
-{"id":"4","question":"Which actor was born in Styria?","choices":{"A":"Ingrid Bergman","B":"Arnold Schwarzenegger","C":"Brad Pitt"},"answer":"Arnold Schwarzenegger", "hint":"He can also Terminate","coupon": "Well done!"},
-
+{"id":"1","question":"Which city is the capital of Styria?","choices":{"A":"Venice","B":"Klagenfurt","C":"Graz"},"answer":"Graz", "hint":"It isthe second largest city in Austria","coupon": "This was easy, try the next question!"},
+{"id":"2","question":"Which state is the capital of Styria?","choices":{"A":"Venice","B":"Klagenfurt","C":"Graz"},"answer":"Graz", "hint":"","coupon": "Wonderful, go to Café Sacher to have a free coffee!"},
+{"id":"3","question":"Which actor was born in Styria?","choices":{"A":"Ingrid Bergman","B":"Arnold Schwarzenegger","C":"Brad Pitt"},"answer":"Arnold Schwarzenegger", "hint":"He can also Terminate","coupon": "Well done!"},
+{"id":"4","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""},
 {"id":"5","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""},
-{"id":"6","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""},
-
-{"id":"7","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""}
+{"id":"6","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""}
 ]
