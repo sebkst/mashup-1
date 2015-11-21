@@ -23,6 +23,12 @@ qhackApp.controller('HomeCtrl', ['$scope','$location',function($scope, $location
     }
 }]);
 
+qhackApp.controller('SuccCtrl', ['$scope','$location',function($scope, $location) {
+    $scope.Next = function(){
+        $location.path("/quiz");
+    }
+}]);
+
 qhackApp.controller('QuizCtrl', ['$scope','$location','$http',function($scope,$location, $http) {
 
     //var tries=0;
@@ -109,7 +115,7 @@ qhackApp.config(['$routeProvider', '$locationProvider',
     })
     .when('/success', {
         templateUrl: '/views/success.html',
-        //controller: 'QuizCtrl'
+        controller: 'SuccCtrl'
     })
     .otherwise({ redirectTo: '/home' });
 

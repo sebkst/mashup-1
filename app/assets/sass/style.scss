@@ -99,17 +99,16 @@ md-toolbar h1 {
 }
 
 .mainTitle{
-    //font-family: $pixel;
+    font-family: $lobster;
     color: white;
     font-size: 3em;
     text-align: left;
-    text-shadow: 0 0 2px #fff; /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
-filter: progid:DXImageTransform.Microsoft.Glow(Color=#ffffff,Strength=1); /* IE<10 */
+
 }
 
 
 .copy {
-font: 1.2em $lobster;
+font: 1.3em $roboto-slab;
 color: white;
 text-align: center;
 }

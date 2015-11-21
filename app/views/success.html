@@ -1,8 +1,17 @@
 <div layout="column" flex ng-cloak>
     <div class="topview content-wrapper md-padding topview" layout="column" class="md-whiteframe-3dp" layout-sm="column" flex layout-align="start center">
         <h2 style="font-size:3em">CONGRATULATIONS!</h2><br> <h3>You have won a free beer in the following place!</h3>
+        <div>
+            <img src="assets/images/map.png"> </img>
+        </div>
+        <md-button ng-click="Next()" class="md-raised md-primary">Next Question</md-button>
+        <br>
         <md-whiteframe class="md-whiteframe-3dp">
             <img class="QrCode content-wrapper md-padding" src="assets/images/qrcode_test.png"></img>
         </md-whiteframe>
+        <div flex>
+            <md-button ng-click="Next()" class="md-raised">Use it now</md-button>
+            <md-button ng-click="Next()" class="md-raised">Save for later</md-button>
+        </div>
     </div>
 </div>
