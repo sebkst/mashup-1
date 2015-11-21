@@ -1,0 +1,19 @@
+
+<div layout="column" flex ng-cloak>
+    <div class="topview content-wrapper md-padding " layout="column" class="md-whiteframe-3dp" layout-sm="column" flex layout-align="start center">
+        <md-whiteframe class="question md-whiteframe-3dp content-wrapper md-padding" flex-sm="45" flex-gt-sm="35" flex-gt-md="100" layout="column" layout layout-align="start center">
+            <h3 style="font-size:30px">{{question}}</h3>
+            <form ng-submit="submit()">
+            <md-radio-group ng-model="radioData.choice">
+              <md-radio-button style="font-size:20px" ng-repeat="(letter, choice) in choices"  ng-value="choice">{{choice}}</md-radio-button>
+            </md-radio-group>
+            </form>
+            <br>
+            <md-button ng-click="Confirm()" class="md-fab md-secondary" aria-label="Confirm answer">
+                <md-icon md-svg-src="assets/images/icons/svg/ic_done_black_48px.svg"></md-icon>
+            </md-button>
+        </md-whiteframe>
+
+    </div>
+
+</div>

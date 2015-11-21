@@ -1,0 +1,6 @@
+
+[
+{"id":"0","question":"What is the most southern state in Austria?","choices":{"A":"Styria","B":"Venecia","C":"Carintia"},"answer":"Carintia"},
+{"id":"1","question":"Which state is the capital of Styria?","choices":{"A":"Venice","B":"Klagenfurt","C":"Graz"},"answer":"Graz"},
+{"id":"2","question":"Which actor was born in Styria?","choices":{"A":"Tom Cruise","B":"Arnold Schwarzenegger","C":"Brad Pitt"},"answer":"Arnold Schwarzenegger"}
+]

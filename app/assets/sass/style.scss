@@ -1,0 +1,109 @@
+@import 'palette';
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;
+$roboto-mono: 'Roboto Mono', ;
+$roboto-condensed: 'Roboto Condensed', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+$lobster: 'Lobster', cursive;
+$pixel: 'Press Start 2P', cursive;
+
+// Styles
+body {
+    margin:0;
+    font-family: $roboto;
+    font-weight: normal;
+    background-color: $primary-color-dark;
+};
+h1, h2, h3, h4, h5, h6 {
+    font-family: $roboto-mono;
+    font-weight: normal;
+};
+
+.button {
+    font-family: $roboto-slab;
+    font-weight: bold;
+};
+
+md-toolbar h1 {
+    font-family: $roboto;
+    font-size: 1.250em;
+    font-weight: 400;
+    margin:0px;
+    //margin: auto;
+};
+
+#top-toolbar{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  margin:0px;
+}
+#bottom-toolbar{
+    position: fixed;
+    //z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto !important;
+};
+
+#content{
+}
+
+.question{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+.topview{
+    //flex: 1 1 auto;
+    background-image: url('/assets/images/porto-trieste2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    //flex: 1 1 auto;
+    //background-color: $primary-color-dark;
+    //overflow: hidden;
+    //position: relative;
+    //height:inherit;
+    //height:auto;
+    //height:100%;
+    margin-bottom: 0;
+    //min-height: 600px;
+    //margin-top: 64px;
+    padding-bottom: 30px;
+
+
+}
+
+.mainTitle{
+    //font-family: $pixel;
+    color: white;
+    font-size: 3em;
+    text-align: left;
+    text-shadow: 0 0 2px #fff; /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Glow(Color=#ffffff,Strength=1); /* IE<10 */
+}
+
+
+.copy {
+font: 1.2em $lobster;
+color: white;
+text-align: center;
+}
+.copy p {
+margin: 0 0 1em 0;
+}
+
+#playButton{
+    //width:70%;
+}

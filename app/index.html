@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <title>Borderline</title>
+
+  <!-- Allow css to render correctly for all devices -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- build:js -->
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('app/boot')
+  </script>
+  <!-- endbuild -->
+  <!-- <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css"> -->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css">
+  /**
+  * Hide when Angular is not yet loaded and initialized
+  */
+      [ng-cloak] {
+          display: none;
+      }
+  </style>
+
+</head>
+<body ng-app="qhackApp" ng-cloak layout="column">
+
+    <md-toolbar  class="layout layout-row md-default-theme" layout-align="center center">
+        <md-button href="/#/home" class="md-icon-button md-primary" aria-label="Settings">
+            <md-icon flex md-svg-icon="assets/images/icons/svg/ic_lightbulb_outline_white_48px.svg"></md-icon>
+
+          </md-button>
+          <h1>Borderline</h1>
+    </md-toolbar>
+
+    <div flex layout="column" >
+        <div ng-view flex layout="column"></div>
+    </div>
+</html>
