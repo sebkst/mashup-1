@@ -46,6 +46,6 @@ class QuestionsDealer(Resource):
         if( json_data['answer'] == data[int(json_data['id'])]['answer'] ):
             return "CORRECT"
         else:
-            return "WRONG"
+            return json_data['hint']
 
 api.add_resource(QuestionsDealer, '/questions')

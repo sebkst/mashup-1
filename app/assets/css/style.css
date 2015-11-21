@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Mono";
   font-weight: normal; }
 
+h2, h3 {
+  font-family: "Roboto", sans-serif;
+  color: white; }
+
+md-whiteframe h3 {
+  color: black; }
+
 .button {
   font-family: "Roboto Slab", serif;
   font-weight: bold; }
