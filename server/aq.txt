@@ -5,8 +5,8 @@
 {"id":"3","question":"Which state is the capital of Styria?","choices":{"A":"Venice","B":"Klagenfurt","C":"Graz"},"answer":"Graz", "hint":"","coupon": "Wonderful, go to Café Sacher to have a free coffee!"},
 {"id":"4","question":"Which actor was born in Styria?","choices":{"A":"Ingrid Bergman","B":"Arnold Schwarzenegger","C":"Brad Pitt"},"answer":"Arnold Schwarzenegger", "hint":"He can also Terminate","coupon": "Well done!"},
 
-{"id":"5","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""},
-{"id":"6","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""},
+{"id":"5","question":"What is the meaning behind the name of Ljubljana?","choices":{"A":"Lovely","B":"Dark","C":"White city"},"answer":"Lovely", "hint":"It is a very positive feeling.","coupon": "Get a free rose on the fresh outdoor market downtown Ljubljana"},
+{"id":"6","question":"What is the official symbol of Ljubljana?","choices":{"A":"Dragon","B":"Fenix","C":"Donkey"},"answer":"Dragon" , "hint":"It can fly and throw Fire","coupon": "Did you know you could see the dragon from the top of the Castle? Take a trip with the Funicular Ride!"},
 
-{"id":"7","question":"?","choices":{"A":"","B":"","C":""},"answer":"", "hint":"","coupon": ""}
+{"id":"7","question":"What is the most famous Slovenian desert?","choices":{"A":"Kremšnita","B":"Tiramisu cake","C":"Sacher cake"},"answer":"Kremšnita", "hint":"This name is written with the sloven alphabet ","coupon": "Buy Two Kremšnita and get One for free at Zvezda and Cacao local shops"}
 ]
