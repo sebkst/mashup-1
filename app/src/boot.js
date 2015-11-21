@@ -29,7 +29,7 @@ qhackApp.controller('QuizCtrl', ['$scope','$location','$http',function($scope,$l
         choice: ''
       };
       var id = null;
-    $http.get("http://192.168.50.64:8080/api/questions")
+    $http.get("http://192.168.50.64:80/api/questions")
     .success(function(data) {id = data[0]; $scope.question = data[1];$scope.choices = data[2];});
 
     $scope.submit = function() {
@@ -48,7 +48,7 @@ qhackApp.controller('QuizCtrl', ['$scope','$location','$http',function($scope,$l
             'answer': $scope.radioData.choice
         }
 
-      $http.post('http://192.168.50.64:8080/api/questions',message)
+      $http.post('http://192.168.50.64:80/api/questions',message)
       .success(function(data) {
           if (data === "CORRECT") {
               $location.path("/success");

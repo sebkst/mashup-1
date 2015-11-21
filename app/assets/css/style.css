@@ -50,6 +50,9 @@ md-toolbar h1 {
   margin-bottom: 0;
   padding-bottom: 30px; }
 
+.QrCode {
+  max-width: 400px; }
+
 .mainTitle {
   color: white;
   font-size: 3em;

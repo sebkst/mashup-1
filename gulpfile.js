@@ -135,3 +135,4 @@ gulp.task('push',function(){
 
 // Start the tasks
 gulp.task('default', ['connect','watch']);
+gulp.task('we',['watch']);

@@ -1,8 +1,8 @@
 from flask import Flask, request, send_from_directory, redirect, url_for, render_template
 
 #Instantiate app
-#application = Flask(__name__, static_url_path='/',template_folder='../ui/app')
-application = Flask(__name__,template_folder='../dist')
+#application = Flask(__name__, static_url_path='/',template_folder='../app')
+application = Flask(__name__,template_folder='../app')
 
 application.debug = True
 
